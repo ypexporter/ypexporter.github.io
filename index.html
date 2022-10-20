@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Youtebe Playlist Exporter</title>
+<link rel="icon" type="image/x-icon" href="dist/images/icon16.ico">
+<link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Arimo:400,700" rel="stylesheet">
+<link rel="stylesheet" href="dist/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="dist/js/scrollreveal.min.js"></script>
+<style>
+	.rating-stars {
+  font-size: 1.3rem;
+  color: #ffd600;
+  }
+  .rating-stars.inverse {
+    color: #adb5bd;
+	}
+
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 19px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fa-star:before {
+    content: "\f005";
+  }
+
+
+</style>
+</head>
+<body class="is-boxed has-animations">
+<div class="body-wrap boxed-container">
+	<!-- <header class="site-header">
+		<div class="container">
+			<div class="site-header-inner">
+				<div class="brand header-brand">
+					<h1 class="m-0">
+						<a href="#">
+              YOUTUBE PLAYLIST EXPORTER
+						</a>
+					</h1>
+				</div>
+			</div>
+		</div>
+	</header> -->
+
+	<main class="site-content">
+		<section class="hero">
+			<div class="hero-left-decoration is-revealing" style="margin:0 auto"></div>
+			<div class="hero-right-decoration is-revealing" style="margin:0 auto"></div>
+			<div class="container">
+				<div class="hero-inner">
+					<div class="hero-copy">
+						<h1 class="hero-title mt-0 is-revealing">Youtube Playlist Exporter</h1>
+						<p class="hero-paragraph is-revealing">The best Chrome extension to export Youtube playlist on the fly. It helps you quickly extract and export information from YouTube playlists into CSV. Such as video name, video number, video description, video url, and so on. All you have to do is snap your finger and access your information.</p>
+						<p class="hero-cta mb-0 is-revealing">
+							<a class="button button-primary button-shadow" href="https://chrome.google.com/webstore/detail/youtube-playlist-exporter/niifghbdemhmnfncaoinbmlbhpjdfnej">ADD TO CHROME FREE</a>
+						</p>
+						<div class="hero-cta rating-stars is-revealing" style="padding-left: 65px; margin-top: 10px;">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <!-- <span class="fa fa-star-half-empty"></span> -->
+                        </div>
+					</div>
+					<div class="hero-illustration">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section class="features-tabs section">
+			<div class="container">
+				<div class="features-tabs-inner section-inner has-top-divider">
+					<div class="tabs-container">
+						<ul class="tabs-links">
+							<li class="is-revealing">
+								<a href="#tab-1" class="tab-link is-active">
+									<img src="dist/images/tabs-icon-01.svg" alt="Tabs icon 01">
+									<span class="h4 m-0">Amazing features</span>
+								</a>
+							</li>
+							<li class="is-revealing">
+								<a href="#tab-2" class="tab-link">
+									<img src="dist/images/tabs-icon-02.svg" alt="Tabs icon 02">
+									<span class="h4 m-0">Endless possibilities</span>
+								</a>
+							</li>
+							<li class="is-revealing">
+								<a href="#tab-3" class="tab-link">
+									<img src="dist/images/tabs-icon-03.svg" alt="Tabs icon 03">
+									<span class="h4 m-0">Ease of use</span>
+								</a>
+							</li>
+						</ul>
+						<div class="tabs-content">
+							<div id="tab-1" class="tab-panel is-active">
+								<h2>Discover</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p class="mb-0">A arcu cursus vitae congue. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.</p>
+							</div>
+							<div id="tab-2" class="tab-panel">
+								<h2>Power of customisation</h2>
+								<p>A arcu cursus vitae congue. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.</p>
+								<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A arcu cursus vitae congue.</p>
+							</div>
+							<div id="tab-3" class="tab-panel">
+								<h2>Keep it simple</h2>
+								<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+								<p class="mb-0">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<section class="pricing section">
+			<div class="container">
+				<div class="pricing-inner section-inner">
+					<h2 class="section-title mt-0 text-center">Pricing</h2>
+					<div>
+						<div class="pricing-tables-wrap">
+							<div class="pricing-table is-revealing">
+								<div class="pricing-table-inner">
+									<div class="pricing-table-main">
+										<div class="pricing-table-header mb-24 pb-24">
+											<div class="pricing-table-title h4 mt-0 mb-16">Basic</div>
+											<div class="pricing-table-price"><span class="pricing-table-price-currency"></span><span class="pricing-table-price-amount h1">Free</span></div>
+										</div>
+										<ul class="pricing-table-features list-reset text-xs">
+											<li>
+												<span>Basic support</span>
+											</li>
+											<li>
+												<span>Export 30 videos at a time</span>
+											</li>
+											<li>
+												<span>No option</span>
+											</li>
+
+										</ul>
+									</div>
+									<div class="pricing-table-cta">
+										<a class="button button-secondary button-shadow button-block" href="https://chrome.google.com/webstore/detail/youtube-playlist-exporter/niifghbdemhmnfncaoinbmlbhpjdfnej">Get started</a>
+									</div>
+								</div>
+							</div>
+							<div class="pricing-table is-revealing">
+								<div class="pricing-table-inner">
+									<div class="pricing-table-main">
+										<div class="pricing-table-header mb-24 pb-24">
+											<div class="pricing-table-title h4 mt-0 mb-16">Professional</div>
+											<div class="pricing-table-price"><span class="pricing-table-price-currency">$</span><span class="pricing-table-price-amount h1">6.99</span>/m</div>
+										</div>
+										<ul class="pricing-table-features list-reset text-xs">
+											<li>
+												<span>Premium support</span>
+											</li>
+											<li>
+												<span>Export no limit videos at a time</span>
+											</li>
+											<li>
+												<span>Optional data fields export</span>
+											</li>
+
+										</ul>
+									</div>
+									<div class="pricing-table-cta">
+										<a class="button button-primary button-shadow button-block" href="https://chrome.google.com/webstore/detail/youtube-playlist-exporter/niifghbdemhmnfncaoinbmlbhpjdfnej">Get started</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="pricing-faqs container-sm is-revealing">
+						<h4 class="mt-40 mb-32">FAQs</h4>
+						<ul class="accordion">
+							<li>
+								<div class="accordion-title">
+									<span>What is the difference between a free account and a paid user?</span>
+									<div class="accordion-icon"></div>
+								</div>
+								<div class="accordion-body">
+									<p>Free account can only export up to 30 videos for a single playlist. Paid account can export videos for a single playlist with no limit.</p>
+								</div>
+							</li>
+							<li>
+								<div class="accordion-title">
+									<span>What Youtube Playlist Export can do for me?</span>
+									<div class="accordion-icon"></div>
+								</div>
+								<div class="accordion-body">
+									<p>It helps you quickly extract and export information from YouTube playlists into CSV. </p>
+								</div>
+							</li>
+							<li>
+								<div class="accordion-title">
+									<span>How do I unsubscribe if I no longer need the service?</span>
+									<div class="accordion-icon"></div>
+								</div>
+								<div class="accordion-body">
+									<p>You can cancel your premium subscription at any time, by clicking the CANCEL SUBSCRIPTION button.</p>
+								</div>
+							</li>
+							<li>
+								<div class="accordion-title">
+									<span>How long after the subscription takes effect?</span>
+									<div class="accordion-icon"></div>
+								</div>
+								<div class="accordion-body">
+									<p>Effective immediately.</p>
+								</div>
+							</li>
+              <li>
+								<div class="accordion-title">
+									<span>What should I do if I encounter problems in use?</span>
+									<div class="accordion-icon"></div>
+								</div>
+								<div class="accordion-body">
+									<p>Please send email with your problems to anynote88@gmail.com.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cta section">
+			<div class="container">
+				<div class="cta-inner section-inner is-revealing">
+					<h3 class="section-title mt-0"></h3>
+					<div class="cta-cta">
+						<a class="button button-primary button-shadow" href="">back to top</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<div class="site-footer-inner">
+				<!-- <div class="brand footer-brand">
+					<a href="#">
+						<img src="dist/images/logo.svg" alt="Blue logo">
+					</a>
+				</div> -->
+				<ul class="footer-links list-reset" style="font-size:16px;font-weight: 700;">
+					<!-- <li>
+						<a href="#">Contact</a>
+					</li>
+          <li><a href="/how-it-works">How It Works</a></li>
+          <li><a href="/faqs">FAQ's</a></li> -->
+          <li><a href="/terms.html">Terms & Conditions</a></li>
+          <li><a href="/policy.html">Privacy Policy</a></li>
+				</ul>
+				<div class="footer-copyright">Copyright &copy; 2022.LetsFaster All rights reserved.</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="dist/js/main.min.js"></script>
+</body>
+</html>

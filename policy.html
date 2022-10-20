@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <META CHARSET="UTF-8">
+        <META NAME="data-spm" CONTENT="a1zaa">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-control" content="no-cache">
+        <meta http-equiv="Cache" content="no-cache">
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <link rel="icon" type="image/x-icon" href="dist/images/icon16.ico">
+        <link rel="stylesheet" type="text/css" href="//g.alicdn.com/platform/legal_online_agreement/1.2.32/linkPage.css">
+        <style id="tablesort">
+            table.sortEnabled tr.firstRow th, table.sortEnabled tr.firstRow td {
+                padding-right: 20px;
+                background-repeat: no-repeat;
+                background-position: center right;
+                background-image: url(http://alinw.alicdn.com/platform/legal_online_agreement/1.0.0/themes/default/images/sortable.png);
+            }
+        </style>
+        <link rel="stylesheet" href="dist/css/footer.css">
+        <style id="table">
+            .selectTdClass {
+                background-color: #edf5fa !important;
+            }
+
+            table.noBorderTable td, table.noBorderTable th, table.noBorderTable caption {
+                border: 1px dashed #ddd !important;
+            }
+
+            table {
+                margin-bottom: 10px;
+                border-collapse: collapse;
+                display: table;
+            }
+
+            td, th {
+                padding: 5px 10px;
+                border: 1px solid #CCC;
+            }
+
+            caption {
+                border: 1px dashed #DDD;
+                border-bottom: 0;
+                padding: 3px;
+                text-align: center;
+            }
+
+            th {
+                border-top: 1px solid #BBB;
+                background-color: #F7F7F7;
+            }
+
+            table tr.firstRow th {
+                border-top-width: 2px;
+            }
+
+            .ue-table-interlace-color-single {
+                background-color: #fcfcfc;
+            }
+
+            .ue-table-interlace-color-double {
+                background-color: #f7faff;
+            }
+
+            td p {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+        <style>
+            em {
+                font-style: italic;
+                font-weight: inherit;
+                font-style: oblique;
+            }
+
+            h1 {
+                display: block;
+                font-size: 2em;
+                -webkit-margin-before: 0.67em;
+                -webkit-margin-after: 0.67em;
+                -webkit-margin-start: 0px;
+                -webkit-margin-end: 0px;
+                font-weight: bold;
+            }
+
+            h2 {
+                display: block;
+                font-size: 1.5em;
+                -webkit-margin-before: 0.83em;
+                -webkit-margin-after: 0.83em;
+                -webkit-margin-start: 0px;
+                -webkit-margin-end: 0px;
+                font-weight: bold;
+            }
+
+            h3 {
+                display: block;
+                font-size: 1.17em;
+                -webkit-margin-before: 1em;
+                -webkit-margin-after: 1em;
+                -webkit-margin-start: 0px;
+                -webkit-margin-end: 0px;
+                font-weight: bold;
+            }
+
+            h4 {
+                display: block;
+                -webkit-margin-before: 1.33em;
+                -webkit-margin-after: 1.33em;
+                -webkit-margin-start: 0px;
+                -webkit-margin-end: 0px;
+                font-weight: bold;
+                font-size: 1em;
+            }
+
+            h5 {
+                display: block;
+                font-size: 0.83em;
+                -webkit-margin-before: 1.67em;
+                -webkit-margin-after: 1.67em;
+                -webkit-margin-start: 0px;
+                -webkit-margin-end: 0px;
+                font-weight: bold;
+                -webkit-transform-origin-x: 0;
+                -webkit-transform: scale(0.83);
+            }
+
+            h6 {
+                display: block;
+                font-size: 0.67em;
+                -webkit-margin-before: 2.33em;
+                -webkit-margin-after: 2.33em;
+                -webkit-margin-start: 0px;
+                -webkit-margin-end: 0px;
+                font-weight: bold;
+                -webkit-transform-origin-x: 0;
+                -webkit-transform: scale(0.67);
+            }
+
+            h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {
+                color: #333;
+                text-decoration: none;
+            }
+
+            p span {
+                background: none !important;
+            }
+        </style>
+        <style>
+            li.list-dash {
+                list-style-type: none;
+                background-repeat: no-repeat;
+                background-image: url(http://alinw.alicdn.com/platform/legal_online_agreement/1.0.0/themes/default/images/dash.gif);
+                padding-left: 30px;
+            }
+
+            li.list-dot {
+                list-style-type: none;
+                background-repeat: no-repeat;
+                background-image: url(http://alinw.alicdn.com/platform/legal_online_agreement/1.0.9/themes/default/images/dot.gif);
+                padding-left: 30px;
+            }
+        </style>
+        <style>
+            html, body {
+              padding: 0;
+              margin: 0;
+              font-family: 'Roboto Slab','Helvetica','Arial',sans-serif!important;
+              color: #333;
+            }
+            li {
+                clear: both;
+            }
+
+            ol.custom_cn {
+                list-style-type: none;
+            }
+
+            ol.custom_cn li {
+                background-position: 0 3px;
+                background-repeat: no-repeat;
+            }
+
+            li.list-cn-paddingleft-1 {
+                padding-left: 25px;
+            }
+
+            li.list-cn-paddingleft-2 {
+                padding-left: 40px;
+            }
+
+            li.list-cn-paddingleft-3 {
+                padding-left: 55px;
+            }
+
+            ul.custom_dash li {
+                background-position: 0 3px;
+                background-repeat: no-repeat;
+                list-style-type: none;
+            }
+
+            ol.custom_dash, ul.custom_dash {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+        <style>
+            table[align="center"] {
+                margin: 0 auto;
+            }
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+            .inshort {
+              font-weight: 700;
+            }
+            .inshortWrap {
+              font-style: italic;
+            }
+            .inshortContent {
+              color: #ccc;
+            }
+            h3 {
+              font-size: 24px;
+              /* border-bottom:1px solid #ddd ; */
+            }
+            .agreementpreview {
+              width: 90%;
+              margin: 0 auto;
+            }
+        </style>
+        <title>Privacy Policy</title>
+    </head>
+    <body data-spm='8161610'>
+        <div class="agreementpreview agr-content">
+            <p class="title" style="margin-top: 1em;  text-align: center; font-weight: bold; white-space: normal;padding-bottom:20px;border-bottom: 1px solid rgb(247, 241, 241);">
+                <span style="font-size: 30px;">Privacy Policy</span>
+            </p>
+            <p style="margin-top: 1em;  white-space: normal;">
+                <span style="font-size: 12px;font-weight: 700;">
+                  Last Updated September 23, 2022<br/>Launched on September 23, 2022
+                </span>
+            </p>
+            <!-- 隐私政策内容 -->
+            <div>
+              <!-- 综述 -->
+              <div>
+                <p class="subtitle" style="margin-top: 1em;  padding-top: 14px; white-space: normal;">
+                  <span style="font-size: 16px;">This privacy notice for Letsfaster("Letsfaster," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you: </span>
+                  <ul>
+                    <li>Visit our website at ypexporter.letsfaster.com, or any website of ours that links to this privacy notice</li>
+                    <li>Engage with us in other related ways, including any sales, marketing, or events</li>
+                  </ul>
+                  <p>Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at anynote88@gmail.com. </p>
+                </p>
+              </div>
+              <!-- 正文区域 -->
+              <div>
+                <div class="content">
+                  <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                    <span>1. WHAT INFORMATION DO WE COLLECT ?</span>
+                  </h3>
+                  <p class="inshortWrap ">
+                    <span class="inshort">In Short: </span><span class="inshortContent">We collect personal information that you provide to us.</span>
+                  </p>
+                  <div>
+                    <p style="margin-top: 1em;  white-space: normal;">
+                      <span style="font-size: 16px;">We collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.</span>
+                    </p>
+                    <p style="margin-top: 1em;  white-space: normal;">
+                      <span style="font-size: 16px;">Personal Information Provided by You.The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use.The personal information we collect may include the following:</span>
+                      <ul>
+                        <li>email address</li>
+                      </ul>
+                    </p>
+                    <!-- <p style="margin-top: 1em;  white-space: normal;">
+                      <span style="font-size: 16px;"><span><span style="font-weight:bold;">Sensitive Information</span>. We do not process sensitive information.</span>
+                    </p> -->
+                    <p style="margin-top: 1em;  white-space: normal;">
+                      <span style="font-size: 16px;"><span style="font-weight:bold;">Account Registration.</span>When you create a Account, you provide us with personal information that includes your name, company name, address, email address, and a password. You can also choose to add a phone number or payment information to your account. Even if you aren’t signed in to a Account, you might choose to provide us with information — like an email address to receive updates about our services.
+                      .</span>
+                    </p>
+                    <p style="margin-top: 1em;  white-space: normal;">
+                      <span style="font-size: 16px;"><span style="font-weight:bold;">Payment Data.</span>We may collect data necessary to process your payment if you make purchases, such as your payment instrument number (such as a credit card number).When you add your financial account information to your Account, that information is directed to our third-party payment processor. We do not store your financial account information on our systems; however, we have access to, and may retain, subscriber information through our third-party payment processor.</span>
+                    </p>
+                    <p style="margin-top: 1em;  white-space: normal;">
+                      <span style="font-size: 16px;"><span style="font-weight:bold;">Social Media Login Data. </span>We may provide you with the option to register with us using your existing social media account details, like your gmail account or other social media account.If you choose to register in this way, we will collect the information described in the section called "HOW DO WE HANDLE YOUR SOCIAL LOGINS?" below.</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                    <span>2. HOW DO WE PROCESS YOUR INFORMATION ?</span>
+                  </h3>
+                  <p class="inshortWrap ">
+                    <span class="inshort">In Short: </span><span class="inshortContent">We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.</span>
+                  </p>
+                  <div>
+                    <p style="margin-top: 1em;  white-space: normal;">
+                      <span style="font-size: 16px;">We process your personal information for a variety of reasons, depending on how you interact with our Services, including:</span>
+                      <ul>
+                        <li>To facilitate account creation and authentication and otherwise manage user accounts.To facilitate account creation and authentication and otherwise manage user accounts.</li>
+                        <li>To save or protect an individual's vital interest.</li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>3. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">We may use cookies and other tracking technologies to collect and store your information.</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">Cookies and similar technologies are the general technologies which used on the Internet. When using Letsfaster and Services, one or more cookies or anonymous identifiers may be sent to your device to collect and store the information during accessing and using Letsfaster. Cookies or anonymous identifiers for authentication and security may be set to ensure the safe and efficient operation of Letsfaster and Services, help us improve the efficiency of Services and the speed for login and response.</span>
+                </p>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">We will use the information we receive only for the purposes that are described in this privacy notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.</span>
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>4. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">If you choose to register or log in to our services using a social media account, we may have access to certain information about you.</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">Our Services offer you the ability to register and log in using your third-party social media account details (like your gmail logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform.</span>
+                </p>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">We will use the information we receive only for the purposes that are described in this privacy notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.</span>
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>5. HOW LONG DO WE KEEP YOUR INFORMATION?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">If you choose to register or log in to our services using a social media account, we may have access to certain information about you.</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">Our Services offer you the ability to register and log in using your third-party social media account details (like your gmail logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform.</span>
+                </p>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">We will use the information we receive only for the purposes that are described in this privacy notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.</span>
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>6. HOW LONG DO WE KEEP YOUR INFORMATION?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than the period of time in which users have an account with us.</span>
+                </p>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.</span>
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>7. HOW DO WE KEEP YOUR INFORMATION SAFE?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">We aim to protect your personal information through a system of organizational and technical security measures.</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.</span>
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>8. DO WE COLLECT INFORMATION FROM MINORS ?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">We do not knowingly collect data from or market to children under 18 years of age.</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at anynote88@gmail.com.</span>
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>9. WHAT ARE YOUR PRIVACY RIGHTS ?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">We do not knowingly collect data from or market to children under 18 years of age.</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">You can cancel your account in Letsfaster by sending an email to anynote88@gmail.com. You will receive a response within fifteen (15) working days. Before your cancellation, your personal identity, security status, device information, etc. will be verified. Confirmation of the above information will be made, followed by a reply or handling measures. Please know and understand that the act of canceling your account is irreversible. The Services will terminate immediately once you cancel your account.</span>
+                </p>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">If you have questions or comments about your privacy rights, you may email us at anynote88@gmail.com.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>10. DO WE MAKE UPDATES TO THIS NOTICE ?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">We reserve the right to modify this privacy policy at any time.</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">We may update this privacy notice from time to time. The updated version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.</span>
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>11. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION ?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">We may share information in specific situations.</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">We may share information in specific situations described in this section and/or with the following third parties:</span>
+                  <ul>
+                    <li>Vendors and Site Providers. We share information we receive with vendors and service providers retained in connection with the provision of our Site.</li>
+                    <li>Business Transfers. We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
+                    <li>Payment Services.When using the wallet payment function service co-provided by a third-party service provider and a third-party payment company, the third-party payment company needs to collect information such as your name, type of bank card and card number, expiration date and mobile phone number. Refuse to provide above sensitive and personal information will only prevent you from using the certain functions, and other functions will not be affected.</li>
+                    <li>Analytics Partners. We use analytics services to collect and process certain analytics data. These services may also collect information about your use of other websites, apps, and online resources.</li>
+                    <li>As Required By Law and Similar Disclosures. We may access, preserve, and disclose your information if we believe doing so is required or appropriate to: (a) comply with law enforcement requests and legal process, such as a court order or subpoena; (b) respond to your requests; or (c) protect your, our, or others’ rights, property, or safety.</li>
+                    <!-- <li>Advertising Partners. We may work with third party advertising partners to show you ads that we think may interest you. These advertising partners may set and access their own cookies, pixel tags, and similar technologies on our Site, and they may otherwise collect or have access to information about you which they may collect over time and across different online services. </li> -->
+                    <li>Affiliates. We may share any information we receive with our corporate affiliates for any of the purposes described in this Privacy Policy.</li>
+                    <li>Aggregate Information. Where legally permissible, we may use and share information about users with our partners in aggregated or de-identified form that can't reasonably be used to identify you.
+                      Third-Party Partners. We also share information about users with third-party partners in order to receive additional publicly available information about you.</li>
+                    <li>Professional advisors. We may disclose your personal information to professional advisors, such as lawyers, bankers, auditors and insurers, where necessary in the course of the professional services that they render to us.</li>
+                    <li>Merger, Sale, or Other Asset Transfers. We may disclose and transfer your information to service providers, advisors, potential transactional partners, or other third parties in connection with the consideration, negotiation, or completion of a corporate transaction in which we are acquired by or merged with another company or we sell, liquidate, or transfer all or a portion of our business or assets. The use of your information following any of these events will be governed by the provisions of this Privacy Policy in effect at the time the applicable information was collected.</li>
+                    <li>Information disclosure.Information We Share When You Sign Up Through a Referral. If you sign up for our Services through a referral from a friend, we may share information with your referrer to let them know that you used their referral to sign up for our Services.</li>
+                    <li>Authorized.We may share information under Your authorization.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>12. HOW WE USE INFORMATION ?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">We use the information we collect with the following situations:</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">We may share information in specific situations described in this section and/or with the following third parties:</span>
+                  <ul>
+                    <li>To provide, maintain, improve, and enhance our Site.</li>
+                    <li>To understand and analyze how you use our Site and develop new products, services, features, and functionality.</li>
+                    <li>To communicate with you, provide you with updates and other information relating to our Services, provide information that you request, respond to comments and questions, and otherwise provide customer support.</li>
+                    <li>For marketing purposes, such as developing and providing promotional and advertising materials that may be useful, relevant, valuable or otherwise of interest to you.</li>
+                    <li>To de-identify and aggregate information collected through the Site and use it for any lawful purpose.</li>
+                    <li>To find and prevent fraud, and respond to trust and safety issues that may arise.</li>
+                    <li>For compliance purposes, including enforcing our legal rights, or as may be required by applicable laws and regulations or requested by any judicial process or governmental agency.</li>
+                    <li>For other purposes for which we provide specific notice at the time the information is collected.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="subtitle" style="margin-top: 1em;  padding-top: 14px; font-weight: bold; white-space: normal;">
+                <span>13. How to Contact Us ?</span>
+              </h3>
+              <p class="inshortWrap ">
+                <span class="inshort">In Short: </span><span class="inshortContent">Generally, we will respond within three (3) working days.</span>
+              </p>
+              <div>
+                <p style="margin-top: 1em;  white-space: normal;">
+                  <span style="font-size: 16px;">Upon any questions, comments or suggestions about the contents of this Privacy Policy, please contact us at anynote88@gmail.com.</span>                  <span style="font-size: 16px;">If you are in the EU or need to be GDPR compliant, you may additionally request to sign our Data Protection Agreement (DPA). Please email us at anynote88@gmail.com for a copy of the DPA..</span>
+                </p>
+              </div>
+            </div>
+        </div>
+        <footer class="site-footer">
+          <div class="site-footer-inner">
+            <ul class="footer-links list-reset" style="font-size:16px;font-weight: 700;">
+              <!-- <li>
+                <a href="#">Contact</a>
+              </li>
+              <li><a href="/how-it-works">How It Works</a></li>
+              <li><a href="/faqs">FAQ's</a></li> -->
+              <li style="padding-right: 15px;"><a href="/terms.html">Terms &amp; Conditions</a></li>
+              <li><a href="/policy.html">Privacy Policy</a></li>
+            </ul>
+            <div class="footer-copyright">Copyright © 2022.LetsFaster All rights reserved.</div>
+          </div>
+      </footer>
+        <div id="App"></div>
+        <div style="display:none;" id="remindContentDiv"></div>
+        <input type="hidden" id="needRemind" value="n">
+        <input type="hidden" id="revisionNum" value="1.1">
+        <input type="hidden" id="agreementId" value="12706">
+        <script type="text/javascript" src="//g.alicdn.com/platform/legal_online_agreement/1.2.32/agreementOnline.js"></script>
+        <script>
+            (function() {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = '//g.alicdn.com/platform/common/s/1.1/monitor/index.js';
+                s.id = 'tb-beacon-aplus';
+                s.exparams = '';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+            )();
+        </script>
+    </body>
+</html>
